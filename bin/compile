@@ -172,8 +172,8 @@ source $BIN_DIR/steps/pylibmc
 # GeoDjango support. (GEOS, Proj.4, GDAL)
 bpwatch start geodjango_install
   source $BIN_DIR/steps/geodjango_geos
-  source $BIN_DIR/steps/geodjango_proj4
-  source $BIN_DIR/steps/geodjango_gdal
+  # source $BIN_DIR/steps/geodjango_proj4
+  # source $BIN_DIR/steps/geodjango_gdal
 bpwatch stop geodjango_install
 
 # Libffi support.
